@@ -231,3 +231,105 @@ ul {
     color: white;
     transform: scale(1.04);
 }
+
+.two-block {
+    background-color: #211F1F;
+    height: 930px;
+    background-size: 100% 100%;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.mans-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;  
+}
+
+.mans-container p {
+    font-family: 'Monda', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+}
+
+.line {
+    margin-top: 20px;
+    width: 1341px;
+    height: 0px;
+    border: 1px solid rgba(249, 249, 249, 0.98);
+}
+
+.first-card-container{
+    color: black;
+    width: 474px;
+    height: 690px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+
+.product-name, .container-buy {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+}
+
+.product-name span {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.favorite {
+    float: right;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.favorite:hover {
+    -webkit-filter: sepia(1) hue-rotate(320deg) saturate(10);
+    filter: sepia(1) hue-rotate(320deg) saturate(10);
+}
+
+.container-buy {
+    margin-top: 10px;
+}
+
+.container-buy p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.container-buy a {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding: 10px 14px 10px 14px ;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.container-buy a:hover {
+    transform: scale(1.04);
+    background-color: black;
+    color: white;
+}
+
+.wrapper-inside-cards {
+    margin-left: 50px;
+}
+
